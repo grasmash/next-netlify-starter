@@ -1,5 +1,12 @@
-document.addEventListener("DOMContentLoaded", (ev) => {
-  
-  let webIdeButton = document.querySelector('[data-qa-selector="web_ide_button"]');
+if (webIdeButton = document.querySelector('[data-qa-selector="web_ide_button"]')) {
   webIdeButton.style.display = "none";
-});
+}
+if (editIdeButton = document.querySelector('[data-track-action="click_edit_ide"]')) {
+  editIdeButton.style.display = "none";
+}
+if (infrastructureLink = document.querySelector('[data-track-label="infrastructure_menu"]')) {
+    infrastructureLink.style.display = "none";
+}
+if (monitorLink = document.querySelector('[data-track-label="monitor_menu"]')) {
+    monitorLink.style.display = "none";
+}
