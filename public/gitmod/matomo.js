@@ -1,3 +1,5 @@
 document.addEventListener("DOMContentLoaded", (ev) => {
-    console.log('hello world');
+  
+  let webIdeButton = document.querySelector('[data-qa-selector="web_ide_button"]');
+  webIdeButton.style.display = "none";
 });
