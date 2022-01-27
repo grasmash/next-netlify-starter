@@ -10,3 +10,4 @@ if (infrastructureLink = document.querySelector('[data-track-label="infrastructu
 if (monitorLink = document.querySelector('[data-track-label="monitor_menu"]')) {
     monitorLink.style.display = "none";
 }
+document.evaluate("//a[contains(text(),'Add Kubernetes cluster')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.style.display = "none";
